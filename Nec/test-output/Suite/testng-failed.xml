@@ -6,14 +6,16 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.Test.Test_tc_003">
+      <class name="com.Test.LoginTest_001">
         <methods>
           <include name="BS"/>
+          <include name="SkipLogin"/>
           <include name="Appium"/>
-          <include name="verify_TestForgotPassword"/>
+          <include name="ValidLogin"/>
+          <include name="ForgotPassword"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Test.Test_tc_003 -->
+      </class> <!-- com.Test.LoginTest_001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
